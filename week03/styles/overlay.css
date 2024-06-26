@@ -17,7 +17,7 @@ h2 {
 
 .herodiv {
 	margin: 10px auto;
-	position: absolute;
+	position: relative;
 }
 
 .herodiv img {
@@ -27,7 +27,7 @@ h2 {
 }
 
 .stats {
-	position: absolute;
+	position: absolute; 
 	bottom: 25px; 
 	left: 15px;
 	background: radial-gradient(#eee, #4567aa);
