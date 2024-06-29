@@ -57,6 +57,8 @@ p {
     background-color: rgba(255, 235, 82, 0.5);
     top: 50%;
     height: 50%;
+    width: 80%;
+    margin-left: 10%;
     margin-top: -13px; 
     text-align: center;
 }
