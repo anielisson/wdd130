@@ -38,6 +38,7 @@ p {
 .hero p {
     font-family: var(--paragraph-font);
     padding: 3%;
+    font-weight: 700;
     color: var(--accent2-color);
 }
 
