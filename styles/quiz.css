@@ -21,7 +21,7 @@ h1 {
 form {
     position: relative;
     width: 100%;
-    max-width: 40%;
+    max-width: 400px;
     margin: 0 auto;
     padding: 1em;
     background-color: #b4d0bb;
