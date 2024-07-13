@@ -220,3 +220,106 @@ footer img {
     align-items: center;
 
 }
+
+.map { 
+    width: 100%;
+    height: 355px;
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.map1 { 
+    width: 35%;
+}
+
+.map2 { 
+    width: 65%;
+}
+
+.map2 iframe{ 
+    width: 100%; 
+    height: 350px;  
+    border: 0;
+
+}
+
+.meet {
+    background-color: rgba(255, 235, 82, 0.5);
+}
+
+.team { 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.team img{ 
+    max-width: 250px;
+}
+
+.team figure {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    padding: 5px;
+    color: var(--nav-hover-link-color);
+    font-family: var(--paragraph-font);   
+    font-weight: 700; 
+    text-align: center;
+}
+
+.user_form {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    width: 100%;
+}
+
+form {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #edf2ef;
+    border-radius: 10px;
+    border: 1px #010c07;
+
+    /* grid */
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--paragraph-font);
+    color: var(--secondary-color);
+}
+
+.text_input {
+    border-radius: 5px;
+}
+
+.rad {
+    padding-left: 20px;
+}
+
+legend {
+    font-size: 1.3em;
+    font-family: Playfair Display;
+    color: black;
+}
+
+button {
+    color: white;
+    background-color: #3c6e71;
+    width: fit-content;
+    padding: 10px;
+    justify-self: center;
+    border-radius: 5px;
+}
+
+
