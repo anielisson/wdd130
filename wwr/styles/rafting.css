@@ -331,7 +331,7 @@ button {
 }
 
 .trip-list {
-    background-color: var(--secondary-color);
+    background-color: white;
     display: flex;
     flex-wrap: wrap;    
     justify-content: space-between;
