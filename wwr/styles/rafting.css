@@ -76,7 +76,7 @@ p {
     margin: 3%;
 }
 
-a {
+/* a {
     text-decoration: none;
     font-weight: bold;
     padding: 10px 15px;
@@ -104,7 +104,7 @@ a:hover {
 a:active {
     font-family: var(--paragraph-font);
     color: var(--primary-color)
-}
+} */
 
 header {
 	display: grid;    
@@ -148,12 +148,17 @@ nav {
 	color: var(--accent2-color);
 	padding: 20px;
 	text-decoration: none;
+    font-weight: bold;
 }
 
 .navigation a:hover {
 	color: var(--nav-hover-link-color);
 	font-weight: 700;
-	text-decoration: underline;
+	text-decoration: none;
+    font-family: var(--paragraph-font);
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    
 }
 
 section {
@@ -417,6 +422,11 @@ button {
 
   /* Index ----------------------------------------------------------------------- */
 
+  main img:hover {
+    transform: scale(1.08); 
+    filter: brightness(1.2);
+  }
+
   .heroindex {
     position: relative;
     text-align: center;
@@ -432,8 +442,9 @@ button {
     position: absolute;
     top: 50%;
     left: 50%;
+    color: white;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
 }
 
@@ -459,29 +470,26 @@ button {
     max-width: 300px;
 }
 
-.formindex button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-.formindex button:hover {
-    background-color: #555;
-}
-
-.cta a {
+.button {
     display: inline-block;
+    font-family: var(--paragraph-font);
+    text-decoration: solid;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: var(--nav-hover-link-color);
     color: #fff;
     text-decoration: none;
     margin-top: 10px;
+    border-radius: 5px;
 }
 
-.cta a:hover {
-    background-color: #555;
+.button:hover {
+    text-decoration: none;    
+    border-radius: 5px;
+    background-color: var(--nav-link-color);
+}
+
+.button:visited {
+    color: white;
 }
 
 .grid {
