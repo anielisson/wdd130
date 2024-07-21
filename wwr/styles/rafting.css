@@ -423,7 +423,7 @@ button {
   /* Index ----------------------------------------------------------------------- */
 
   main img:hover {
-    transform: scale(1.08); 
+    transform: scale(1.04); 
     filter: brightness(1.2);
   }
 
