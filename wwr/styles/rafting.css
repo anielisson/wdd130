@@ -308,10 +308,10 @@ button {
 .trip{
     font-family: var(--heading-font);
     color: var(--secondary-color);
-    width: 90%;
+    width: 80%;
     display: grid;
     justify-items: center;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 .trip-list {
