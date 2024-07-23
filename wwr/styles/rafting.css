@@ -127,6 +127,7 @@ header {
 	margin: 0 0.25rem 0 0.50rem;
 	width: 150px;
 	height: auto;
+    border-radius: 20px;
 }
 
 nav {
@@ -220,7 +221,7 @@ footer p{
 
 footer img {
     border:0;
-    width:30px;
+    width:25px;
     padding: 5px;
 }
 
@@ -365,6 +366,7 @@ button {
     position: relative;
   }
 
+
   @media (max-width: 800px) {
     .trip-item {
       width: 100%; /* Two columns per row on smaller screens */
@@ -419,6 +421,12 @@ button {
   .trip-item p {
     margin-bottom: 10px;
   }
+
+.triptable{
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    width: 90%;
+}
 
 table {
  width: 100%;
