@@ -20,6 +20,11 @@
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
 }
 
+.logo{
+  width: 200px;
+  border-radius: 20px;
+}
+
 .u-section-1 .u-icon-1 {
   height: 48px;
   width: 48px;
